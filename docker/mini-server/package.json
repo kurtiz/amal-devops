@@ -1,0 +1,18 @@
+{
+  "name": "mini-server",
+  "version": "1.0.0",
+  "description": "A simple mini server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Aaron Will Djaba",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cosmiconfig": "^9.0.0",
+    "express": "^4.19.2"
+  }
+}
